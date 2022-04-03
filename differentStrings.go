@@ -28,4 +28,10 @@ func main() {
 	buf[0] = 'H'
 	s := string(buf)
 	fmt.Println(s) // "Hello"
+
+	newString1 := stringA + stringB
+	fmt.Println(newString1)
+
+	newString2 := stringB + stringB
+	fmt.Println(newString2)
 }
